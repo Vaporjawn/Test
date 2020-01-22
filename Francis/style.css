@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(https://wallpapercave.com/wp/XskdoNn.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.francis-welcome
+{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.francis-welcome h1
+{
+	front-size:32 px;
+	line-height: 10px;
+}
+
+.francis-welcome h2
+{
+	font-size: 16px;
+}
+
+form
+{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	boarder:none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: 18px;
+	margin-bottom: 16px;
+}
+
+input
+{
+	height: 45 px;	
+}
+
+form .submit
+{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover
+{
+	background-color: #f44336;
+	cursor: pointer;
+}
